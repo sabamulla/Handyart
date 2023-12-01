@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185814407003",
+    "project_id": "handyart-54943",
+    "storage_bucket": "handyart-54943.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185814407003:android:0a3dc6a6ab5c50b7ac6c7e",
+        "android_client_info": {
+          "package_name": "com.example.signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185814407003-snhmsrfb06nj80c04lqp6q29t0urm49m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZl69Jr6laxpIlfaygvFOKVqhuyxmZrGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185814407003-snhmsrfb06nj80c04lqp6q29t0urm49m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

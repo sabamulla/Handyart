@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".privacy">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Privacy Policy"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="319dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="10dp"
+        android:justificationMode="inter_word"
+        android:text="We value the trust you place in us and recognize the importance of secure transactions and information privacy.  This privacy policy describes how handyart collects, use, share or otherwise process your personal information through handyart app, however please note we do not offer products or services outside Goa.\n"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="319dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="10dp"
+        android:justificationMode="inter_word"
+        android:text="Your personal information will be primarily stored and processed in Goa. By visiting this platform, providing your information or availing out product/service, you expressly agree to be bound by the terms and conditions of this privacy policy, the terms of use and the applicable service/product terms and conditions, and agree to be governed by the laws of India including but not limited to the laws applicable to data protection and privacy. If you do not agree please do not use or access our platform."
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="168dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:srcCompat="@drawable/privacy_icon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

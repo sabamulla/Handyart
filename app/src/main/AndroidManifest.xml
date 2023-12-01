@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.signin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo12"
+        android:label="HandyArt"
+        android:roundIcon="@drawable/logo12"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Signin"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".adapters.productdescription5"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".onboarding"-->
+<!--            android:exported="true">-->
+<!--            -->
+<!--        </activity>-->
+        <activity
+            android:name=".Allproducts"
+            android:exported="false" />
+        <activity
+            android:name=".payment"
+            android:exported="false" />
+        <activity
+            android:name=".Forgotpass"
+            android:exported="false" />
+        <activity
+            android:name=".uploadProfile"
+            android:exported="false" />
+        <activity
+            android:name=".changepass"
+            android:exported="false" />
+        <activity
+            android:name=".deleteacc"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.productdescription4"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.productdescription3"
+            android:exported="false" />
+        <activity
+            android:name=".Productdescription2"
+            android:exported="false" />
+        <activity
+            android:name=".profile_display"
+            android:exported="false" />
+        <activity
+            android:name=".search_activity"
+            android:exported="false" />
+        <activity
+            android:name=".profile_edit"
+            android:exported="false" />
+        <activity
+            android:name=".adminpage"
+            android:exported="false" />
+        <activity
+            android:name=".storedetails"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.Poductdescription"
+            android:exported="false" />
+        <activity
+            android:name=".adminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:name=".privacy"
+            android:exported="false" />
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

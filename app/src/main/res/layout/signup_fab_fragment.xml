@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+
+        >
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="  user name"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:ems="10"
+            android:hint="   E-mail"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="   Mobile Number"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:inputType="phone"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="   Password"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/number" />
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:ems="10"
+            android:hint="   Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="   City"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:drawableStart="@drawable/ic_baseline_location_city_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/confirmPassword" />
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="   PinCode"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:drawableStart="@drawable/ic_baseline_location_on_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="279dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="   Address"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/city" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/button_bg"
+            android:text="Register"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pincode"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="83dp"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.181"
+            tools:ignore="MissingConstraint" />
+
+
+        ></androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
